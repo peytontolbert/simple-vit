@@ -1,0 +1,15 @@
+model:
+  image_size: 32
+  patch_size: 4
+  emb_dim: 128
+  depth: 6
+  num_heads: 4
+  mlp_ratio: 4.0
+  dropout: 0.1
+
+training:
+  batch_size: 64
+  epochs: 2
+  lr: 1e-3
+  print_freq: 100
+  save_path: vit_cifar10.pth
